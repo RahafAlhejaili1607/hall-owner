@@ -14,6 +14,8 @@
 		261FC3F629090A8F00B9D4DB /* hall_ownerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC3F529090A8F00B9D4DB /* hall_ownerTests.swift */; };
 		261FC40029090A8F00B9D4DB /* hall_ownerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC3FF29090A8F00B9D4DB /* hall_ownerUITests.swift */; };
 		261FC40229090A8F00B9D4DB /* hall_ownerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC40129090A8F00B9D4DB /* hall_ownerUITestsLaunchTests.swift */; };
+		261FC44529091F2B00B9D4DB /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC44429091F2B00B9D4DB /* Tab.swift */; };
+		26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B84CD6290A566500A6B503 /* Edit my hall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		261FC3FB29090A8F00B9D4DB /* hall ownerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hall ownerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261FC3FF29090A8F00B9D4DB /* hall_ownerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hall_ownerUITests.swift; sourceTree = "<group>"; };
 		261FC40129090A8F00B9D4DB /* hall_ownerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hall_ownerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		261FC44429091F2B00B9D4DB /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		26B84CD6290A566500A6B503 /* Edit my hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit my hall.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				261FC3E429090A8E00B9D4DB /* hall_ownerApp.swift */,
 				261FC3E629090A8E00B9D4DB /* ContentView.swift */,
+				26B84CD6290A566500A6B503 /* Edit my hall.swift */,
+				261FC44429091F2B00B9D4DB /* Tab.swift */,
 				261FC3E829090A8F00B9D4DB /* Assets.xcassets */,
 				261FC3EA29090A8F00B9D4DB /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261FC44529091F2B00B9D4DB /* Tab.swift in Sources */,
 				261FC3E729090A8E00B9D4DB /* ContentView.swift in Sources */,
+				26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */,
 				261FC3E529090A8E00B9D4DB /* hall_ownerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
