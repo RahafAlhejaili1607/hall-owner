@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261ECFC3290AE1860061CD6A /* Hall owner's profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ECFC2290AE1860061CD6A /* Hall owner's profile.swift */; };
+		261ECFC7290D1CF10061CD6A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261ECFC6290D1CF10061CD6A /* SwiftUIView.swift */; };
 		261FC3E529090A8E00B9D4DB /* hall_ownerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC3E429090A8E00B9D4DB /* hall_ownerApp.swift */; };
 		261FC3E729090A8E00B9D4DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC3E629090A8E00B9D4DB /* ContentView.swift */; };
 		261FC3E929090A8F00B9D4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261FC3E829090A8F00B9D4DB /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261ECFC2290AE1860061CD6A /* Hall owner's profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hall owner's profile.swift"; sourceTree = "<group>"; };
+		261ECFC6290D1CF10061CD6A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		261FC3E129090A8E00B9D4DB /* hall owner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hall owner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261FC3E429090A8E00B9D4DB /* hall_ownerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hall_ownerApp.swift; sourceTree = "<group>"; };
 		261FC3E629090A8E00B9D4DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		261FC3D829090A8E00B9D4DB = {
 			isa = PBXGroup;
 			children = (
+				261ECFC2290AE1860061CD6A /* Hall owner's profile.swift */,
+				261ECFC6290D1CF10061CD6A /* SwiftUIView.swift */,
 				261FC3E329090A8E00B9D4DB /* hall owner */,
 				261FC3F429090A8F00B9D4DB /* hall ownerTests */,
 				261FC3FE29090A8F00B9D4DB /* hall ownerUITests */,
@@ -264,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				261FC44529091F2B00B9D4DB /* Tab.swift in Sources */,
+				261ECFC7290D1CF10061CD6A /* SwiftUIView.swift in Sources */,
 				261FC3E729090A8E00B9D4DB /* ContentView.swift in Sources */,
 				26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */,
+				261ECFC3290AE1860061CD6A /* Hall owner's profile.swift in Sources */,
 				261FC3E529090A8E00B9D4DB /* hall_ownerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
