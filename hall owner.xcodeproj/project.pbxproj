@@ -17,6 +17,10 @@
 		261FC40029090A8F00B9D4DB /* hall_ownerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC3FF29090A8F00B9D4DB /* hall_ownerUITests.swift */; };
 		261FC40229090A8F00B9D4DB /* hall_ownerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC40129090A8F00B9D4DB /* hall_ownerUITestsLaunchTests.swift */; };
 		261FC44529091F2B00B9D4DB /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261FC44429091F2B00B9D4DB /* Tab.swift */; };
+		26513E5E290EAB7500A40946 /* Imagepicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E5D290EAB7500A40946 /* Imagepicker.swift */; };
+		26513E60290EB04500A40946 /* register new hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E5F290EB04500A40946 /* register new hall.swift */; };
+		26513E62290EB32F00A40946 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E61290EB32F00A40946 /* Location.swift */; };
+		26513E66290FB32900A40946 /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E65290FB32900A40946 /* tabbar.swift */; };
 		26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B84CD6290A566500A6B503 /* Edit my hall.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +55,10 @@
 		261FC3FF29090A8F00B9D4DB /* hall_ownerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hall_ownerUITests.swift; sourceTree = "<group>"; };
 		261FC40129090A8F00B9D4DB /* hall_ownerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hall_ownerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		261FC44429091F2B00B9D4DB /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		26513E5D290EAB7500A40946 /* Imagepicker.swift */ = {isa = PBXFileReference; indentWidth = 50; lastKnownFileType = sourcecode.swift; path = Imagepicker.swift; sourceTree = "<group>"; tabWidth = 50; };
+		26513E5F290EB04500A40946 /* register new hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "register new hall.swift"; sourceTree = "<group>"; };
+		26513E61290EB32F00A40946 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		26513E65290FB32900A40946 /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
 		26B84CD6290A566500A6B503 /* Edit my hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit my hall.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +90,10 @@
 		261FC3D829090A8E00B9D4DB = {
 			isa = PBXGroup;
 			children = (
+				26513E65290FB32900A40946 /* tabbar.swift */,
+				26513E5F290EB04500A40946 /* register new hall.swift */,
+				26513E61290EB32F00A40946 /* Location.swift */,
+				26513E5D290EAB7500A40946 /* Imagepicker.swift */,
 				261ECFC2290AE1860061CD6A /* Hall owner's profile.swift */,
 				261ECFC6290D1CF10061CD6A /* SwiftUIView.swift */,
 				261FC3E329090A8E00B9D4DB /* hall owner */,
@@ -271,9 +283,13 @@
 			files = (
 				261FC44529091F2B00B9D4DB /* Tab.swift in Sources */,
 				261ECFC7290D1CF10061CD6A /* SwiftUIView.swift in Sources */,
+				26513E66290FB32900A40946 /* tabbar.swift in Sources */,
+				26513E62290EB32F00A40946 /* Location.swift in Sources */,
 				261FC3E729090A8E00B9D4DB /* ContentView.swift in Sources */,
 				26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */,
+				26513E60290EB04500A40946 /* register new hall.swift in Sources */,
 				261ECFC3290AE1860061CD6A /* Hall owner's profile.swift in Sources */,
+				26513E5E290EAB7500A40946 /* Imagepicker.swift in Sources */,
 				261FC3E529090A8E00B9D4DB /* hall_ownerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

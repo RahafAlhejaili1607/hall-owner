@@ -11,7 +11,9 @@ import SwiftUI
 struct hall_ownerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+          ContentView()
+           
         }
     }
 }
